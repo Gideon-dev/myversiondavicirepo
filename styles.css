@@ -41,16 +41,7 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional shadow for effect */
 
 }
-.navbar {
-    position: fixed; /* Fix the navbar at the top of the page */
-    top: 0; /* Position it at the top */
-    width: 100%; /* Make it full width */
-    background-color: #333; /* Background color */
-    color: white; /* Text color */
-    padding: 15px; /* Padding for spacing */
-    z-index: 1000; /* Ensure it's on top of other elements */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional shadow for effect */
-}
+
 
 .logo {
     display: flex;
@@ -109,6 +100,7 @@ header {
     /* border: 2px solid black; */
 }
 .mobile_link_holder li{
+    color: #333;
     width: 100%;
     text-align: left;
     padding: 10px;
@@ -191,9 +183,9 @@ main {
     align-items: center;
     background: rgba(51, 51, 51, 0.8);;
 }
-main.marquee-container{
+/* main.marquee-container{
     height: auto !important; 
-}
+} */
 .banner_holder{
     min-width: 100%;
     height: auto;
@@ -621,16 +613,17 @@ p {
 
 .marquee-container {
     width: 100%;
+    height: auto;
     /* overflow: hidden; */
     background-color: #333;
     color: white;
     margin-bottom: 20px;
-   
-    
 }
 
 .marquee {
-    display: inline-block;
+    width: auto;
+    overflow: visible;
+    display: flex;
     white-space: nowrap;
     animation: marquee 12s linear infinite;
 }
