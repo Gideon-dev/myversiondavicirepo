@@ -36,9 +36,20 @@ header {
     /* position: sticky; */
     /* margin: 5px; */
     top: 0;
+    position: fixed;
     z-index: 1000;
-    /* will-change: transform;
-    transition: transform 0.5s ease-in-out; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional shadow for effect */
+
+}
+.navbar {
+    position: fixed; /* Fix the navbar at the top of the page */
+    top: 0; /* Position it at the top */
+    width: 100%; /* Make it full width */
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    padding: 15px; /* Padding for spacing */
+    z-index: 1000; /* Ensure it's on top of other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional shadow for effect */
 }
 
 .logo {
