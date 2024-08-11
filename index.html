@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <title>#SURGEWITHDIVICIPRINCE</title>
-    <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
         <div class="logo">
             <img src="./images/banner.jpg" alt="Divici Prince">
@@ -17,31 +16,53 @@
         </div>
         <nav class="goal">
             <span class="button_holder">
-                <button>
-                +
-                </button>
+              
+                <svg  class="nav_btn" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                </svg>                      
+                
             </span>
            
             <ul class="link_holder">
                 <li><a href="#about">About</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#offices">Offices</a></li>
+                <!-- <li><a href="#achievements">Achievements</a></li> -->
+                <!-- <li><a href="#offices">Offices</a></li> -->
                 <li><a href="#manifesto">Manifesto</a></li>
                 <li><a href="#agenda">Agenda</a></li>
                 <li><a href="#goals">Goals</a></li>
             </ul>
 
             <div class="btn_join join__btn">
-               <input type="button" value="Join US">
+               <!-- <input type="button" value="Join US"> -->
+                <a href="https://chat.whatsapp.com/FzAZgrY9Mal5PiTYtLnw6l" target="_blank">
+                    <button>
+                        Join Us
+                    </button>
+                </a>
            </div>
 
         </nav> 
+        <div class="side-nav-mobile">
+            <span class="cancel_holder">
+                <svg class="nav_btn"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>                  
+            </span>
+            <ul class="mobile_link_holder">
+                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#achievements">Achievements</a></li> -->
+                <!-- <li><a href="#offices">Offices</a></li> -->
+                <li><a href="#manifesto">Manifesto</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#goals">Goals</a></li>
+            </ul>
+        </div>
      
     </header>
     
    
   
-    <section class="banner_holder">
+    <main class="banner_holder">
         <div class="banner">
             <div class="fire"></div>
             <div class="bubbles">
@@ -54,7 +75,13 @@
             <div class="content">
                 <h1>SURGE WITH DIVCIPRINCE</h1>
                 <h2>Join the movement for a brighter student future!</h2>
-                <input type="button" value="Get involved">
+
+                <a href="https://chat.whatsapp.com/FzAZgrY9Mal5PiTYtLnw6l" target="_blank">
+                    <button>
+                        Get Involved
+                    </button>
+                </a>
+                
             </div>
         </div>
     </main>
@@ -150,40 +177,46 @@
         </div>
     </section>
 
-    <div class="marquee-container">
+    <main class="marquee-container ">
         <div class="marquee">
             <h1>Join the SURGE WITH DIVCIPRINCE campaign for a brighter student future!</h1>
         </div>
-    </div>
+    </main>
 
     <div class="content-container">
         <section id="manifesto" class="fade-in">
             <h3 onclick="toggleAnswer(this)">Manifesto</h3>
-            <p>My name is Divine Prince Daniel, and I am running for the office of Student Union President. My campaign, SURGE WITH DIVCIPRINCE, is focused on building a brighter future for all students. My experience and dedication to student welfare, academic excellence, and transparent governance form the core of my manifesto.
-            <p>Key Goals:</p>
-            <ul>
-                <li><strong>Enhancing Student Welfare:</strong> Improve campus facilities and amenities. Increase support services for mental health and well-being. Advocate for affordable and quality healthcare services.</li>
-                <li><strong>Promoting Academic Excellence:</strong> Provide resources and support for academic success. Organize skill development programs and workshops. Facilitate access to internships and job placements.</li>
-                <li><strong>Ensuring Transparent Governance:</strong> Implement transparent financial management and reporting. Foster open communication between the union and students. Encourage student participation in decision-making processes.</li>
-            </ul>
-            </p>
+            <div class="content-ans">
+                <p>My name is Divine Prince Daniel, and I am running for the office of Student Union President. My campaign, SURGE WITH DIVCIPRINCE, is focused on building a brighter future for all students. My experience and dedication to student welfare, academic excellence, and transparent governance form the core of my manifesto.
+                <p>Key Goals:</p>
+                <ul>
+                    <li><strong>Enhancing Student Welfare:</strong> Improve campus facilities and amenities. Increase support services for mental health and well-being. Advocate for affordable and quality healthcare services.</li>
+                    <li><strong>Promoting Academic Excellence:</strong> Provide resources and support for academic success. Organize skill development programs and workshops. Facilitate access to internships and job placements.</li>
+                    <li><strong>Ensuring Transparent Governance:</strong> Implement transparent financial management and reporting. Foster open communication between the union and students. Encourage student participation in decision-making processes.</li>
+                </ul>
+                </p>
+            </div>
+            
         </section>
 
 
         <section id="agenda" class="fade-in">
             <h3 onclick="toggleAnswer(this)">Agenda</h3>
-            <p>The key goals include enhancing student welfare, promoting academic excellence, and ensuring transparent governance.
+            <div  class="content-ans">
+                <p>The key goals include enhancing student welfare, promoting academic excellence, and ensuring transparent governance.
 
-            <p>- S: Strengthen - Strengthen the student community through unity and collective action.</p>
-            <p>- U : Uplift - Uplift student welfare by addressing key issues and providing necessary resources.</p>
-            <p>- R: Represent - Represent all student voices fairly and transparently in decision-making processes.</p>
-            <p>- G: Grow - Grow opportunities for academic and personal development through various programs and initiatives.</p>
-            <p>- E: Empower - Empower students with the skills and knowledge needed to succeed and make a positive impact.</p></p>
+                <p>- S: Strengthen - Strengthen the student community through unity and collective action.</p>
+                <p>- U : Uplift - Uplift student welfare by addressing key issues and providing necessary resources.</p>
+                <p>- R: Represent - Represent all student voices fairly and transparently in decision-making processes.</p>
+                <p>- G: Grow - Grow opportunities for academic and personal development through various programs and initiatives.</p>
+                <p>- E: Empower - Empower students with the skills and knowledge needed to succeed and make a positive impact.</p></p>
+            </div>
+           
         </section>
 
         <section id="goals" class="fade-in">
             <h3 onclick="toggleAnswer(this)">Goals</h3>
-            <ul>
+            <ul class="content-ans">
                 <li> Support: Foster a supportive environment where every student feels valued and heard.</li>
                 <li>Unify: Build a united student body through inclusive events and initiatives.</li>
                 <li>Revitalize: Revamp campus life with innovative programs and engaging activities.</li>
@@ -195,10 +228,10 @@
 
         <section id="support" class="fade-in">
             <h3 onclick="toggleAnswer(this)">Support the Campaign</h3>
-            <p>Spread the word and join our events! Click the "Get Involved" button on the website and fill out the form.</p>
+            <p class="content-ans">Spread the word and join our events! Click the "Get Involved" button on the website and fill out the form.</p>
         </section>
         
-                <section id="theme" class="fade-in">
+        <section id="theme" class="fade-in">
                     <h3>Campaign Theme</h3>
                     <p>#SURGEWITHDIVICPRINCE - Let’s make waves!</p>  
         </section>
@@ -237,25 +270,25 @@
                 <p>@SUG 001</p>
             </div>
             <div class="slide">
-                <img src="images//akaka.jpg" alt="Divici Prince">
+                <img src="images/akaka.jpg" alt="Divici Prince">
                 <h1>Vote for Divci!!! He's the real deal</h1>
                 <h3>DIVINE PRINCE DANIEL</h3>
                 <p>@SUG 001</p>
             </div>
             <div class="slide">
-                <img src="images/chemical footballers.jpg" alt="Divici Prince">
+                <img src="images/chemical_footballers.jpg" alt="Divici Prince">
                 <h1>Vote for Divci!!! He's the real deal</h1>
                 <h3>DIVINE PRINCE DANIEL</h3>
                 <p>@SUG 001</p>
             </div>
             <div class="slide">
-                <img src="images/all the best.jpg" alt="Divici Prince">
+                <img src="images/all_the_best.jpg" alt="Divici Prince">
                 <h1>Vote for Divci!!! He's the real deal</h1>
                 <h3>DIVINE PRINCE DANIEL</h3>
                 <p>@SUG 001</p>
             </div>
             <div class="slide">
-                <img src="images/them girls.jpg" alt="Divici Prince">
+                <img src="images/them_girls.jpg" alt="Divici Prince">
                 <h1>Vote for Divci!!! He's the real deal</h1>
                 <h3>DIVINE PRINCE DANIEL</h3>
                 <p>@SUG 001</p>
@@ -317,7 +350,12 @@
     <div class="content_white">
         <h1>SURGE WITH DIVCIPRINCE</h1>
         <h2>Be part of a transformative journey. Your voice matters!</h2>
-        <input type="button" value="Get involved">
+        <!-- <input type="button" value="Get involved"> -->
+         <a href="https://chat.whatsapp.com/FzAZgrY9Mal5PiTYtLnw6l" target="_blank">
+            <button>
+              Get involved  
+            </button>
+         </a>
     </div>
     
     <div class="grid-container">
@@ -383,17 +421,61 @@
 
     <div class="contact-container">
         <h1>Get in touch</h1>
-        <input type="text" id="name" placeholder="Name">
-        <input type="email" id="email" placeholder="Email">
-        <input type="text" id="message" placeholder="Message">
-        <input type="button" value="Send It" onclick="sendEmail()">
+       <form class="contact-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="message" placeholder="Message" required>
+            <!-- <input type="button" value="Send It" onclick="sendEmail()"> -->
+            <button type="submit" >Send us a message</button>
+       </form>
     </div>
+    <section id="footer_last_child">
+        <div  class="footer_contact">
+            <div class="contact-card">
+                <h3>
+                    Phone:
+                </h3>
+                <p>
+                    <strong>+2348147797705</strong>
+                </p>
+            </div>
+            <div class="contact-card">
+                <h3>
+                    Email
+                </h3>
+                <p>
+                    <strong>Divineprincedaniel@gmail.com</strong>
+                </p>
+            </div>
+            <div class="contact-card">
+                <h3>
+                    Address
+                </h3>
+                <p>
+                    <strong>Gidan Kwano, Minna.</strong>
+                </p>
+            </div>
+            <div class="contact-card">
+                <h3>
+                    Working Hours
+                </h3>
+                <p>
+                    <strong>Mon - Sun:7 AM - 7 PM</strong>
+                </p>
+            </div>
+        </div>
+       
+    </section>
 
     <footer>
         <p>&copy; 2024 #SURGEWITHDIVICIPRINCE</p>
     </footer>
+    <span>
+        <svg class="scroll-to-top" id="scrollToTopBtn" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+        </svg>
+    </span>
 
-
-    <!-- <script src="scripts.js"></script> -->
+    <script src="scripts.js"></script>
 </body>
 </html>
